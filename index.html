@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="shortcut icon" href="HisHighnessTroy.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="style/portfolio.css">
+
+    <!-- Including font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+              
+</head>
+<body>
+    <div class="container">
+
+        <!-- header -->
+         <header id="header">
+
+            <h1>My Portfolio</h1>
+
+            <nav>
+                <ul>
+                    <li><a href="#home"><i class="fas fa-home"></i> Home</a></li>
+                    <li><a href="#about"><i class="fas fa-user"></i> About</a></li>
+                    <li><a href="#projects"><i class="fas fa-briefcase"></i> Projects</a></li>
+                    <li><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
+                </ul>
+            </nav>
+
+            <button id="dark-mode-toggle">
+                <i class="fas fa-moon"></i>
+            </button>
+         </header>
+
+         <!-- Main Content -->
+          <main>
+
+            <!-- Home Section -->
+            <section id="home" class="section">
+                <h2>Welcome to My Portfolio</h2>
+                <div class="overlay"></div>
+                <p> I am a passionate web developer focused on creating responsive, modern, user-friendly and authentic web apps. I enjoy turning ideas into functional, visually appealing and artistic web experiences. </p>
+            </section>
+
+            <!-- About Section -->
+            <section id="about" class="section">
+                <h2>About Me</h2>
+                <img src="HisHighnessTroy.jpg" width="100" height="100" alt="profile" class="profile-img">
+                <p> I am Troy , a web developer passionate about learning, building, and improving my skills in web development. Over the past year, I have been developing my knowledge of HTML, CSS, JS and Python while working on different projects and exploring new technologies. </p>
+ 
+            </section>
+
+            <!-- Project section -->
+             <section id="projects" class="section">
+                <h2><span class="project_header">My Projects</span></h2>
+
+                <div class="project-grid">
+                    <div class="project-card">
+                        <h3>Project 1</h3>
+                        <p> Description of project one, built with HTML, CSS and Javasript. </p>
+                        <a href="#" class="btn">Live Demo</a>
+                    </div>
+
+                    <div class="project-card">
+                        <h3>project 2</h3>
+                        <p> Description of project 2, a responsive web app using flexbox. </p>
+                        <a href="#" class="btn">Live Demo</a>
+                    </div>
+
+                    <div class="project-card">
+                        <h3>Project 3</h3>
+                        <p> Description of project 3, a portfolio site like this one. </p>
+                        <a href="#" class="btn">Live Demo</a>
+                    </div>
+                </div>
+             </section>
+             <!-- Contact Section -->
+            <section id="contact" class="section">
+                <h2>Contact Me</h2>
+                <div class="contact-split">
+                <form id="contact-form">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Your name" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="you@example.com" required>
+
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Your message..."></textarea>
+
+                    <button type="submit"><i class="fas fa-paper-plane"></i> Send</button>
+                </form>
+
+                <!-- QR CODE -->
+                <div class="qr-section">
+                    <div id="qrcode">
+                        <img src="qrcode_web.facebook.com.png" alt="" class="qrcode-image">
+                    </div>
+
+                    <h2>Scan the QR code</h2>
+                    <p>Connect with me on your phone or scan for more links.</p>
+                </div>                    
+                </div>
+            </section>
+        </main>
+          <!--- Footer-->
+          <footer>
+            <p>
+                Find me on
+                    &bull;
+                    <a href="https://linkedin.com/in/yourusername" target="_blank">
+                        <i class="fab fa-linkedin"></i> Linkedin</a>
+                    </p>
+                    <p>&copy; 2026 HisHighnessTroy All rights reserved.</p>
+          </footer>
+    </div>
+    
+</body>
+</html>
