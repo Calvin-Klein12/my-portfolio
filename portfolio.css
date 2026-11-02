@@ -16,7 +16,7 @@
 body {
     font-family: 'Poppins', sans-serif;
     font-weight: 100px;
-    background: var(--just-in-case-color),url(../media/Photos/adrien-olichon-RCAhiGJsUUE-unsplash.jpg) no-repeat center center;
+    background: var(--just-in-case-color),url(adrien-olichon-RCAhiGJsUUE-unsplash.jpg) no-repeat center center;
     background-size: cover;
 }
 
