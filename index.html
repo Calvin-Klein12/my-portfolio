@@ -1,57 +1,15 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="portfolio.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Reformed Portfolio</title>
-</head>
-<body>
-    <div class="hero-section">
-        <div class="hero-header">
-            <h1>TROY.</h1>
-
-            <nav class="nav_links">
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Projects</a></li>
-                </ul>
-            </nav>
-
-            <button class="burger" aria-label="Menu">
-                <span></span>
-                <span></span>
-                <span></span>
-            </button>
-        </div>
-
-        <hr>
-
-        <div class="hero-section-text-content">
-            <h2>I Build. I Learn. I<span class="hero-text-style"> Evolve.</span></h2>
-
-            <div class="hero-section-paragraph">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati suscipit, <br> odio porro debitis iusto quidem consequatur voluptas reiciendis possimus, <br> illo incidunt nisi ea. Magnam, provident nemo. Commodi doloribus neque <br> aliquam?</p>
-            </div>
-
-            <div class="hero-button">
-                <button class="project_btn">View Project</button>
-
-                 <button class="about_me_btn">About Me</button>
-
-            </div>
-        </div>
-
-
-    </div>
-
-    <main></main>
-
-    <script>
-        const burger = document.querySelector('.burger');
-         const links = document.querySelector('.nav_links');
-         burger.addEventListener('click', () => links.classList.toggle('open'));
-    </script>
-</body>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
 </html>
